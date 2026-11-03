@@ -1,0 +1,13 @@
+{
+  "name": "nuvio-moviebox",
+  "version": "1.0.0",
+  "description": "MovieBox provider addon for Nuvio",
+  "scripts": {
+    "build": "node build.js",
+    "build:minify": "node build.js --minify",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0"
+  }
+}
