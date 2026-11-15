@@ -1,0 +1,22 @@
+{
+  "name": "MovieBox for Nuvio",
+  "version": "1.0.0",
+  "description": "Streams movies and TV shows via the MovieBox (aoneroom.com) API. Supports MP4, DASH, and HLS.",
+  "author": "you",
+  "scrapers": [
+    {
+      "id": "moviebox",
+      "name": "MovieBox",
+      "description": "Direct HTTP streams from MovieBox — no debrid required. Up to 4K where available.",
+      "version": "1.0.0",
+      "author": "you",
+      "filename": "providers/moviebox.js",
+      "enabled": true,
+      "supportedTypes": ["movie", "tv"],
+      "contentLanguage": ["en", "hi", "ko", "ja", "zh", "ta", "te"],
+      "formats": ["mp4", "mpd", "m3u8"],
+      "supportsExternalPlayer": true,
+      "hasSettings": false
+    }
+  ]
+}
